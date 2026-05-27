@@ -1,5 +1,7 @@
-
-  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+*, *::before, *::after {
+  box-sizing: border-box;
+  max-width: 100%;
+}
 
   :root {
     --gold: #C9A84C;
@@ -513,7 +515,7 @@ body {
   }
   .nav-mobile.open { display: flex; }
   .nav-mobile a {
-    font-family: var(--serif); font-size: 2rem; font-style: italic;
+    font-family: var(--serif); font-size: 1rem;
     color: var(--text); text-decoration: none;
     transition: color var(--transition);
   }
