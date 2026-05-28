@@ -488,11 +488,6 @@ body {
   .works-grid { grid-template-columns: 1fr; }
   .work-card.featured { grid-column: span 1; aspect-ratio: 16/9; }
 
-  .teatro-obra-header { grid-template-columns: 40px 1fr; }
-  .teatro-role { display: none; }
-  .teatro-fotos { margin-left: 0; gap: 4px; }
-  .teatro-fotos img { height: 140px; max-width: 100%; flex: 1 1 140px; }
-
   .clases-grid { grid-template-columns: 1fr; }
   .pub-grid { grid-template-columns: repeat(2, 1fr); gap: 8px; }
 
