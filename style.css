@@ -288,7 +288,7 @@ body {
   display: flex; gap: 15px; flex-wrap: wrap; position: relative;
 }
 .teatro-fotos img {
-  height: 300px; width: auto;
+  height: 500px; width: auto;
   object-fit:contain; flex: 1 1 200px; max-width: 340px;
   opacity: 0.85; transition: transform 0.5s ease, opacity 0.3s ease;
 }
